@@ -80,7 +80,7 @@ You can use `cmake --help` and `ninja --help` to inspect additional configuratio
 
 ## Extra exercise: use Make instead of Ninja
 
-Try repeating the build using CMake with Make instead of Ninja.
+Try repeating the build using CMake with Make instead of Ninja. Use a new build directory for this exercise, if there is an existing `_build` directory already configured to use Ninja.
 
 Configure the build with the Unix Makefiles generator:
 
