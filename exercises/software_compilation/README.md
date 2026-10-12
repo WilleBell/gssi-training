@@ -2,9 +2,9 @@
 
 These exercises show different ways of compiling software from source on an HPC system.
 
-- [Compile software with Rust](rust.md)
-- [Compile software with Go](go.md)
-- [Build software with CMake and Ninja](cmake_ninja.md)
+- [Compile software with Rust](Rust.md)
+- [Compile software with Go](Go.md)
+- [Build software with CMake and Ninja](Cmake_Ninja.md)
 
 The exact build procedure depends on the software and the build system it uses. 
 Before starting, inspect the source tree and check the project documentation for installation or build instructions.
