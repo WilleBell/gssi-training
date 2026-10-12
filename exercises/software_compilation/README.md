@@ -18,5 +18,5 @@ Larger projects can require significant CPU and memory resources during compilat
 
 ### More information
 For more information about compiling and installing software on VSC systems, 
-see the [VSC documentation on compiling software](docs.vscentrum.be/compute/software/installing_software/compiling_software.html)
+see the [VSC documentation on compiling software](https://docs.vscentrum.be/compute/software/installing_software/compiling_software.html)
 and the [GSSI training material](https://vscentrum.github.io/gssi-training).
