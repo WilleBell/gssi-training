@@ -34,8 +34,7 @@ If needed, you can update the module dependencies with:
 ```bash
 go mod tidy
 ```
-
-This may create or update the `go.sum` file, which records checksums for module dependencies.
+`go mod tidy` updates the module dependencies and may create or update the `go.sum` file, which records checksums for downloaded modules.
 
 Build the software and place the executable in a `bin` directory:
 
