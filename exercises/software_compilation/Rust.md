@@ -50,3 +50,9 @@ Finally, test the resulting executable:
 ```bash
 ./target/release/genact --help
 ```
+
+Note: `cargo build --release` does not specifically optimize for the CPU architecture of the build node. In general, architecture-specific optimization is possible with: 
+```bash
+RUSTFLAGS="-C target-cpu=native" cargo build --release
+```
+This may improve performance, but can reduce portability across different CPU types.
